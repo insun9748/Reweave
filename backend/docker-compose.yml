@@ -1,0 +1,6 @@
+services:
+  spring:
+    build: .
+    container_name: reweave-backend
+    ports:
+      - "8080:8080"
